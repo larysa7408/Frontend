@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://amazon.de/api/1" method="post">
+        <br>
+        <label for="name">Введите свое имя:</label>
+        <input id="name" type="text" placeholder="Здесь должно быть Ваше имя" required>
+        <!-- disabled делает кнопку выключено -->
+        <br>
+        <label for="age">Введите Ваш возраст</label>
+        <input id="age" type="number">
+        <br>
+        <label for="pass">Введите пароль:</label>
+        <input id="pass" type="password">
+        <br>
+        <label for="date">Дата рождения:</label>
+        <input id="date" type="date">
+        <br>
+        <label for="male"></label>
+        <input id="male" type="radio" name="gender">
+        <label for="female">F</label>
+        <input id="female" type="radio" name="gender">
+        <br>
+        <br>
+        <label for="reading">Любите ли Вы читать?</label>
+        <input id="reading" type="checkbox">
+        <br>
+        <label for="reading">Есть ли у вас домашние животные?</label>
+        <input id="reading" type="checkbox">
+        <br>
+        <label for="reading">Введите ваш комментарий:</label>
+        <input id="reading" type="checkbox">
+
+
+        <textarea rows="10" placeholder="сюда"></textarea>
+        <br />
+        <label for="reading">Оцените нас:</label>
+        <input type="range" min=1 max=10>
+        <br />
+        <select>
+            <option>Вариант 1</option>
+            <option>Вариант 2</option>
+        </select>
+        <button type="submit">0тправить</button>
+        <button type="reset">0чистить</button>
+
+
+
+
+
+
+    </form>
+</body>
+</html>
