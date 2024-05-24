@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 2</title>
+
+</head>
+
+<body>
+   <form action="http://amazon.de/api/1" method="post">
+            <table>
+                <tr>
+                    <td><label for="name">Введите свое имя:</label></td>
+                    <td><input id="name" type="text" placeholder="Здесь 
+                должно быть Ваше имя" required></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Введите Ваш возраст:</label></td>
+                    <td><input id="age" type="number"></td>
+                </tr>
+                <tr>
+                    <td><label for="pass">Введите пароль:</label></td>
+                    <td><input id="pass" type="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Дата рождения:</label></td>
+                    <td><input id="date" type="date"></td>
+                </tr>
+                <tr>
+                    <td><label>Ваш пол:</label></td>
+                    <td>
+                        <label for="male">М</label>
+                        <input id="male" type="radio" name="gender">
+                        <label for="female">Ж</label>
+                        <input id="female" type="radio" name="gender">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="reading">Любите ли Вы читать?</label>. 
+                </td>
+                    <td><input id="reading" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td><label for="pets">Есть ли у вас домашние животные? 
+                </label></td>
+                    <td><input id="pets" type="checkbox"></td>
+                </tr>
+                <tr>
+                    <td><label for="comment">Введите ваш комментарий: 
+                </label></td>
+                    <td><textarea id="comment" rows="5" placeholder="сюда"> 
+                </textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="rating">Оцените нас:</label></td>
+                    <td><input id="rating" type="range" min="1" max="10">. 
+                </td>
+                </tr>
+                <tr>
+                    <td><label for="options">Выберите вариант:</label></td>
+                    <td>
+                        <select id="options">
+                            <option>Вариант 1</option>
+                            <option>Вариант 2</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="button-group">
+                        <button type="submit">Отправить</button>
+                        <button type="reset">Очистить</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+</body>
+
+</html>
