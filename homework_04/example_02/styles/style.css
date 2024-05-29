@@ -1,0 +1,16 @@
+.block {
+    position: relative;
+    background-color: #0861ce;
+    width: 200px;
+    height: 40px;
+    top: 250px;
+    left: 250px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,37 @@
+html {
+    height: 100%;
+    overflow: hidden;
+    text-align: center
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 150px;
+    background-color: darksalmon
+}
+
+.main {
+    height: 71vh;
+    background-color: darkorchid;
+    width: 100%;
+    border-bottom: 10px white solid;
+    border-top: 10px white solid;
+}
+
+.footer {
+    height: 150px;
+    background-color: darksalmon;
+}
+
+.header, .main, .footer {
+    font-size: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
