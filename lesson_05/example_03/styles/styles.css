@@ -1,0 +1,9 @@
+.bg-pic{
+    height: 300px;
+   background-image: url("../images/cat.png");
+   border: 2px black solid;
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: contain;
+   /* background-size: cover; */
+}

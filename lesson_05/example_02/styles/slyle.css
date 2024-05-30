@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.green {
+    height: 150%;
+    width: 100px;
+    background-color: green;
+}
+
+.blue {
+    height: 100px;
+    background-color: aqua;
+
+}
+
+.red {
+    background-color: coral;
+    width: 100%;
+    height: 30vh;
+}
+
+.parent {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.block {
+    height: 100px;
+    width: 100px;
+}
+
+.block1 {
+    background-color: red;
+    position: relative;
+    left: 20px;
+}
+
+.block2 {
+    background-color: blueviolet;
+    position: absolute;
+    top: -130px;
+    left: 30px;
+}
+
+.block3 {
+    background-color: burlywood;
+}
+.text {
+    background-color: rgb(178, 169, 169);
+}
