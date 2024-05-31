@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 23em;
+    background:linear-gradient(white 40%,gray 50%,black 100%);
+    border: 2px #000 solid;
+    height: 90vh;
+    width: 60vh;
+    top: 5px;
+    left: 50px;
+    margin: 5px 5px;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+
+.block1 {
+    background-color: yellow;
+    width: 80px;
+    height: 50px;
+    position: absolute;
+    right: 130px;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
