@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-block {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(20, 20, 30);
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.logo {
+    height: 100px;
+    padding: 25px;
+    background-color: beige;
+    align-items: center;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+
+}
+
+.menu {
+    height: 100px;
+    padding: 25px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    margin: 2px;
+    text-align: center;
+    text-decoration: underline
+    
+}
+
+.menu1 {
+    flex-direction: row;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+}

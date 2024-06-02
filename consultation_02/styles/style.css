@@ -7,10 +7,21 @@
     flex-direction: column;
 }
 
+.ex {
+    width: 25px;
+    height: 25px;
+    background-color: blueviolet;
+    margin-left: auto;
+    position: relative;
+    right: 15px;
+    top: 25px;
+}
+
 .block {
     width: 100px;
     height: 100px;
     background-color: bisque;
+    position: relative;
 }
 
 .dissapearing {

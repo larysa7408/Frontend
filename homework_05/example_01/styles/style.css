@@ -11,7 +11,8 @@
     width: 100%;
     height: 100vh;
     padding: 23em;
-    background:linear-gradient(white 40%,gray 50%,black 100%);
+    position: relative;
+    background: linear-gradient(white 40%, gray 50%, black 100%);
     border: 2px #000 solid;
     height: 90vh;
     width: 60vh;
@@ -24,10 +25,11 @@
 
 .block1 {
     background-color: yellow;
-    width: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: 50px;
     position: absolute;
-    right: 130px;
+    right: 10px;
     top: 10px;
     display: flex;
     align-items: center;
