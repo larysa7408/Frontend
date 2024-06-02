@@ -1,0 +1,34 @@
+.block-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 5px;
+    color: orange;
+
+}
+
+.block {
+    height: 300px;
+    width: 20%
+}
+
+.block_red {
+    background-color: red;
+}
+
+.block_green {
+    background-color: green;
+}
+
+.block_blue {
+    background-color: blue;
+}
+
+.block_yellow {
+    background-color: yellow;
+}
+
+.block_black {
+    background-color: black;
+}

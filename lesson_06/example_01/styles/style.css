@@ -3,7 +3,6 @@
     flex-direction: row;
     /* flex-direction: column; по горизонтали */
     align-items: start;
-
     justify-content: space-evenly;
     height: 400px;
     background-color: brown;
@@ -19,11 +18,13 @@
     min-height: 10%;
 
 }
+
 .item1 {
     /* margin-right: 50px; */
     flex-grow: 1;
 
 }
+
 .item5 {
     flex-grow: 1;
 }
