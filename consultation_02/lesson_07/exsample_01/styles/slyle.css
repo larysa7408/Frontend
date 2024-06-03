@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    /* padding не увеличивает контейнер */
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    width: 400vh;
+}
+
+.header {
+    width: 100%;
+    min-height: 80px;
+    /* верх/ право + лево /низ */
+    padding: 20px 0 15px; /* мешает злементам в header приживаться к краю */
+    background-image: url('imagebanner.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    /* сделали nav по центру header*/
+    justify-content: center;
+
+
+}
+
+.logo {
+    /* сделали картинку меньше */
+    height: 30px;
+
+}
+
+.nav {
+    /* внутренняя обертка в header */
+    display: flex;
+    align-items: end; /* по поперечной оси сдвинули элементы вниз */
+    width: 700px;  /* ограничили контейнер по ширине */
+    justify-content: space-between; /* по главной оси равномерно распределили пространство*/
+
+    
+
+}
+
+.navContainer {
+    display: flex; /* для внутренних контейнеров с иконками и текстом задаем выравнивание по горизонтали и к низу */
+    align-items: end;
+
+}
+
+.navContainer>span {
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out; /* плавный переход для прозрачности */
+    color: white;
+    opacity: 50%;
+
+}
+
+
+.icon {
+    cursor: pointer;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.navContainer:hover .icon,
+.navContainer:hover .playHeading .navContainer:hover .oscar,
+.navContainer:hover .oscarHeading {
+    opacity: 1;
+
+}
+
+
+.input {
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+
+}
+
+.input:hover {
+    opacity: 1;
+
+}
+
+.playHeading {}
