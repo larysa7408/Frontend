@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: orange;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+
+}
+
+.main {
+    
+    flex: 1;
+
+}
+
+.footer {
+    height: 70px;
+    width: 100%;
+    background-color: darkgray;
+}
+
+
+.poster {
+    height: 300px;
+}
+
+.card {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px;
+}
+
+.reating {
+    position: absolute;
+    color: white;
+    top: 15px;
+    left: 10px;
+    padding: 5px;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.teackets {
+    background-color: orange;
+    color: white;
+    position: absolute;
+    bottom: 15px;
+    right: 10px;
+}
