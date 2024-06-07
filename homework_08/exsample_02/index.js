@@ -1,10 +1,6 @@
 console.log("Сравнение чисел:")
 const a = 17;
-console.log(a); //17
-
 const b = 5;
-console.log(b); //5
-
 console.log(a > b);// true
 console.log(a <= b); // false
 console.log(a == b); // false
