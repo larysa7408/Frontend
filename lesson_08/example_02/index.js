@@ -138,3 +138,6 @@ switch (day) {
     default:
       console.log("It's another day!");
    }
+
+
+
