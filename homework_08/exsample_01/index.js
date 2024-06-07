@@ -29,6 +29,3 @@ console.log("'' to boolean is " + Boolean('')); // false
 console.log("' ' to boolean is " + Boolean(' ')); //true
 console.log('17 to boolean is ' + Boolean(17)); //true
 console.log("'Hello' to boolean is " + Boolean('Hello')); //true
-
-
-
