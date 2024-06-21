@@ -4,7 +4,6 @@ console.log({ name: 'John' });
 const human = {
     head: true,
 }
-
 const actor = {
     mainRole: 'cinema'
 }
@@ -28,7 +27,7 @@ function Human(name, surName) {
     //     return 'погулял';}
 
 }
-Human.prototype.walk = function (){
+Human.prototype.walk = function () {
     console.log(`I am ${this.name}.I am walking`);
 
 }
@@ -38,5 +37,48 @@ console.log(TomC.walk === Arni.walk);
 TomC.walk();
 //hasOwnProperty()
 
-const
+const testObj = new Object;
 
+// классы
+class HumanNew {
+    #wealth;
+    constructor(name, surName, age) {
+        this.name = name;
+        this.surnName = surName;
+        this.age = age;
+        this.#wealth = 100000*age;
+    }
+
+    get wealth() {
+        return this.#wealth;
+    }
+
+    set wealth(amount) {
+        this.#wealth = this.#wealth + amount;
+    }
+
+    walk() {
+        console.log('I am walking');
+    }
+
+    static diffInAge = function(obj1, obj2) {
+        return obj1.age - obj2.age;
+    }
+};
+
+const Homer = new HumanNew('Homer', 'Simpson', 30);
+const Sponge = new HumanNew('SpongeBob', 'SquarePants', 15)
+console.log(Homer);
+console.log(Homer.walk == Sponge.walk);
+HumanNew.diffInAge(Homer, Sponge);
+
+// Наследование у классов
+
+class ActorNew extends HumanNew {
+    constructor(name, surName, age, country) {
+        super(name, surName, age);
+        this.country = country;
+    }
+}
+
+const Mila = new ActorNew('Mila', 'J', 25);
