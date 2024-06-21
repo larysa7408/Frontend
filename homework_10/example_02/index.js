@@ -6,7 +6,7 @@
 функция вернуть эту половину этого числа
  */
 
-const createSquareFunction = () => {
+const power = () => {
     return (num) => {
         if (typeof num != 'number') {
             num = Math.floor(Number(num));
