@@ -3,15 +3,9 @@
  */
 
 const names = ['Лариса', 'александр', 'Родион', 'Анна', 'Виталий', 'Мухлис', 'Антон'];
-function getCapitalLetters(names) {
-    const filteredNames = [];
-    for (let i = 0; i < names.length; i++) {
-        const name = names[i];
-        if (name[0].toLowerCase() === 'а') {
-            filteredNames.push(name);
-        }
-    }
-    return filteredNames;
+const filteredNames = (array) => {
+    return array.filter(name => name[0].toLowerCase() === 'а');
 }
-const namesStartingWithA = getCapitalLetters(names);
-console.log(namesStartingWithA);
+console.log(filteredNames(names));
+
+
