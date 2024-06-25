@@ -12,13 +12,12 @@ const customer =
     }
 }
 const getObjectView = (customer) => {
-    const values = [];
-    const customerId = Object.keys(customer);
-    for (let i = 0; i < customerId.length; i++) {
-        const id = customerId[i];
-        const customerData = customer[id];
-        values.push({ id, ...customerData });
+    const changeELement=(cust)=>{
+        return {id: cust, ...customer[cust]}
     }
-    return values;
+    const customerId = Object.keys(customer);
+    const newArray = customerId.map(changeELement);
+    return newArray;
+
 }
 console.log(getObjectView(customer));
