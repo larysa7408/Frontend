@@ -6,7 +6,7 @@ const callBF = (n) => {
 
 //setInterval(callBF, 1000);// принимает два аргумента кол бек функцию и время
 // setTimeout(callbackFunction, 6000);
-// const intervalID = setInterval(callBF, 1000);
+// const intervalID = setInterval(callBackFunction, 1000);
 
 // const stopInt = () => {
 //     clearInterval(intervalID);
@@ -29,7 +29,7 @@ const intervalQ = (num, callback) => {// примет 1 колвл раз
     const intervalID = setInterval(callbackModified, 1000);
 
 }
-intervalQ(10, callBF);
+intervalQ(10, callStart);
 
 
 
