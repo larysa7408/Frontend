@@ -15,6 +15,19 @@ let todoList = [
     { task: "Послать резюме", done: true },
     { task: "Поехать в отпуск", done: false }
 ];
+const fetchResult = async () => {
+    const response = await fetch('https://jsonplaceholder.typicode.com/todos')
+    const bodyData = await response.json();
+
+    const v1 = bodyData.map(list => {
+        return {
+            task: list.title,
+            done: list.completed
+        }
+    })
+    core(v1);
+}
+const toDoList1 = fetchResult()
 function core(arrList) {
     // выводим список объктов массива
     const list = document.querySelector('.list');
