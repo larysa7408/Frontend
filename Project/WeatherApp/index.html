@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="icon" href="./images/2600-fe0f@2x.png">
+    <title>WeatherApp
+    </title>
+</head>
+
+<body>
+    <div class="weather">
+        <div class="weather_inner">
+            <div class="current">
+                <div id="date" class="current_data">Wednesday, July 22</div>
+                <div id="current-city" class="current_city">San Francisco, CA</div>
+                <img id="icon" src="//cdn.weatherapi.com/weather/128x128/night/116.png" alt="weather icon" width="300">
+            </div>
+            <div id="weather" class="current_description">Partly Cloudy</div>
+            <div id="current_temp" class="current_temperature">27°</div>
+
+            <div id="forecast" class="forecast">
+                <div class="forecast_item">
+                    <div class="forecast_day">Thu</div>
+                    <div class="forecast_icon">
+                        <img src="./images/clear_d.gif" alt="moon-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">29°</div>
+                </div>
+                <div class="forecast_item">
+                    <div class="forecast_day">Fri</div>
+                    <div class="forecast_icon">
+                        <img src="./images/clear_n.gif" alt="cloud-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">29°</div>
+                </div>
+                <div class="forecast_item">
+                    <div class="forecast_day">Sat</div>
+                    <div class="forecast_icon">
+                        <img src="./images/cloudy-and-rain_d.gif" alt="sun-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">28°</div>
+                </div>
+                <div class="forecast_item">
+                    <div class="forecast_day">Sun</div>
+                    <div class="forecast_icon">
+                        <img src="./images/overcast-thunderstorms-with-rain_d.gif" alt="cloud-moon-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">27°</div>
+                </div>
+                <div class="forecast_item">
+                    <div class="forecast_day">Mon</div>
+                    <div class="forecast_icon">
+                        <img src="./images/cloudy_d.gif" alt="cloud-sun-rain-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">23°</div>
+                </div>
+                <div class="forecast_item">
+                    <div class="forecast_day">Tue</div>
+                    <div class="forecast_icon">
+                        <img src="./images/partly-cloudy_d.gif" alt="moon-solid" width="40">
+                    </div>
+                    <div class="forecast_temperature">21°</div>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/main.js"></script>
+</body>
+
+</html>

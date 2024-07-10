@@ -1,17 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    background-color: slategray;
+    font-family: Arial, sans-serif;
 }
 
+
 .container {
-    display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
-    background-color: darkgrey;
-    /* margin: 0; */
-    height: 100vh;
+    max-width: 100%;
     padding: 10px;
+    justify-content: space-evenly;
 }
 
 .block {
